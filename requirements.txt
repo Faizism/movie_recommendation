@@ -1,4 +1,18 @@
-pandas   ==       2.2.3
-numpy      ==     1.26.4
-scikit-learn  ==  1.5.2
-python       ==   4.0
+# requirements.txt
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.5.2
+streamlit==1.32.0
+requests==2.31.0
+pickle5==0.0.11
+
+# render.yaml
+services:
+  - type: web
+    name: movie-recommender
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9
