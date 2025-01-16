@@ -1,4 +1,4 @@
-TMDB Movie Recommender System 🎬
+<h1>  TMDB Movie Recommender System 🎬  </h1>
 A content-based movie recommendation system built using the TMDB Movies Dataset. This system analyzes movie features like plot overviews and genres to recommend similar movies based on content similarity.
 
 📝 Description
