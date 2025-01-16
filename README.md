@@ -44,11 +44,9 @@ The system currently achieves:
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
 👥 Authors
-Elia Samuel
-Muhammad Fa'iz Ismail
+- Elia Samuel
+- Muhammad Fa'iz Ismail
 
 🙏 Acknowledgments
-
-TMDB for providing the movie dataset
-Scikit-learn team for their machine learning tools
-Anthropic for assistance in development
+- TMDB for providing the movie dataset
+- Scikit-learn team for their machine learning tools
